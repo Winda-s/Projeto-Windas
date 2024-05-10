@@ -32,21 +32,21 @@ void loop() {
     Serial.print(",");
     Serial.print(umidade);  //imprime no monitor Serial Valor da Umidade
     Serial.print(",");
-    Serial.print(temperatura);
+    Serial.print(temperatura + 3);
     Serial.print(",");
     Serial.println(fksensorUm);
     Serial.print(chave);  //imprime no monitor Serial Valor da Umidade
     Serial.print(",");
-    Serial.print(umidade + 4);  //imprime no monitor Serial Valor da Umidade
+    Serial.print(umidade - 10);  //imprime no monitor Serial Valor da Umidade
     Serial.print(",");
     Serial.print(temperatura + 3);
     Serial.print(",");
     Serial.println(fksensorDois); 
     Serial.print(chave);  //imprime no monitor Serial Valor da Umidade
     Serial.print(",");
-    Serial.print(umidade + 6);  //imprime no monitor Serial Valor da Umidade
+    Serial.print(umidade - 18);  //imprime no monitor Serial Valor da Umidade
     Serial.print(",");
-    Serial.print(temperatura + 5);
+    Serial.print(temperatura + 8);
     Serial.print(",");
     Serial.println(fksensorTres); 
   }

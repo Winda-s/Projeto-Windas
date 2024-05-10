@@ -13,7 +13,7 @@ const SERVIDOR_PORTA = 3300;
 // Habilita ou desabilita a inserção de dados no banco de dados
 // false -> nao insere
 // true -> insere
-const HABILITAR_OPERACAO_INSERIR = false;
+const HABILITAR_OPERACAO_INSERIR = true;
 
 // Função para comunicação serial
 const serial = async (
@@ -29,11 +29,11 @@ const serial = async (
     .createPool({
       // altere!
       // Credenciais do banco de dados
-      host: "localhost",
-      user: "root",
-      password: "12345",
+      host: "127.0.0.1",
+      user: "aluno",
+      password: "sptech100",
       database: "windas",
-      port: 3306,
+      port: 3307,
     })
     .promise();
 
